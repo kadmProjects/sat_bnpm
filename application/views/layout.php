@@ -8,11 +8,11 @@
   <link rel="icon" href="<?php echo base_url(); ?>assets/images/icon.png">
   <title>SAT</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/ionicons.min.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/AdminLTE.min.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/skins/skin-teal.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/css/skins/skin-teal.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/btn-bs4.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/courseCard.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/jobCard.css">
@@ -128,12 +128,12 @@
 	    	</div>
 	  	</footer>
 	</div>
-	<script src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/jquery.slimscroll.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/fastclick.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/adminlte.min.js"></script>
-	<script src="<?php echo base_url(); ?>assets/js/demo.js"></script>
+	<script src="<?php echo base_url(); ?>assets/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/bower_components/fastclick/lib/fastclick.js"></script>
+	<script src="<?php echo base_url(); ?>assets/dist/js/adminlte.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets/dist/js/demo.js"></script>
 	<script type="text/javascript">
 		var navbar = document.getElementById('nav-bar');
 		document.body.onscroll=function(x){
