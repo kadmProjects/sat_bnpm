@@ -1,0 +1,52 @@
+.course-card{
+          cursor: default;
+          border: 1px solid #dfe1e4;
+          position: relative;
+          margin-bottom: 5px;
+        }
+        .course-card:hover{
+          box-shadow: 1px 1px 3px #101010;
+
+        }
+        .course-card .course-logo{
+          width:100px;
+          height: 100px;
+        }
+        .course-card .course-detail{
+          position: absolute;
+          margin:0;
+          left:105px;
+        }
+        .course-card .course-title{
+          color: #007bff;
+          white-space: nowrap;
+          overflow:hidden;
+          text-overflow: ellipsis;
+          font-size: 16px;
+          font-weight: bold;
+          top:5px;
+          right: 5px;
+        }
+        .course-card .course-medium{
+          font-size: 13px;
+          top:24px;
+        }
+        .course-card .course-follow-count{
+          font-size: 13px;
+          top:37px;
+        }
+
+        .course-card .course-lecture{
+          font-size: 13px;
+          top:53px;
+        }
+        .course-card .course-lecture a{
+          font-weight: bold;
+        }
+        .course-card .btn-wish-list{
+          position: absolute;
+          bottom:5px;
+          right:5px;
+          font-size: 12px;
+          padding: 0.1rem 0.2rem;
+        }

@@ -1,0 +1,52 @@
+.job-card{
+          cursor: default;
+          border: 1px solid #dfe1e4;
+          position: relative;
+          margin-bottom: 5px;
+        }
+        .job-card:hover{
+          box-shadow: 1px 1px 3px #101010;
+
+        }
+        .job-card .job-logo{
+          width:100px;
+          height: 100px;
+        }
+        .job-card .job-detail{
+          position: absolute;
+          margin:0;
+          left:105px;
+        }
+        .job-card .job-title{
+          color: #007bff;
+          white-space: nowrap;
+          overflow:hidden;
+          text-overflow: ellipsis;
+          font-size: 16px;
+          font-weight: bold;
+          top:5px;
+          right: 5px;
+        }
+        .job-card .job-salary{
+          font-size: 13px;
+          top:24px;
+        }
+        .job-card .job-deadline{
+          font-size: 13px;
+          top:37px;
+        }
+
+        .job-card .job-company{
+          font-size: 13px;
+          top:53px;
+        }
+        .job-card .job-company a{
+          font-weight: bold;
+        }
+        .job-card .btn-wish-list{
+          position: absolute;
+          bottom:5px;
+          right:5px;
+          font-size: 12px;
+          padding: 0.1rem 0.2rem;
+        }

@@ -1,0 +1,43 @@
+.lecture-card{
+          cursor: default;
+          border: 1px solid #dfe1e4;
+          position: relative;
+          margin-bottom: 5px;
+        }
+        .lecture-card:hover{
+          box-shadow: 1px 1px 3px #101010;
+
+        }
+        .lecture-card .lecture-logo{
+          width:100px;
+          height: 100px;
+        }
+        .lecture-card .lecture-detail{
+          position: absolute;
+          margin:0;
+          left:105px;
+        }
+        .lecture-card .lecture-name{
+          font-size: 16px;
+          font-weight: bold;
+          top:5px;
+        }
+        .lecture-card .lecture-position{
+          position: absolute;
+          font-size: 13px;
+          bottom:15px;
+          right:5px;
+          font-weight: bold;
+          font-style: italic;
+        }
+        .lecture-card .lecture-company{
+          position: absolute;
+          font-size: 13px;
+          bottom:0px;
+          font-weight: bold;
+          right:5px;
+        }
+        .lecture-card .lecture-follow-count{
+          font-size: 13px;
+          top:22px;
+        }
