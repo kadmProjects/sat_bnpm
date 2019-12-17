@@ -29,7 +29,7 @@
 					<img style="height: 60px;" id="logo" src="<?php echo base_url(); ?>assets/images/logo.png" alt="Logo of SAT">
 				</div>
 				<div class="col-sm-9 text-right">
-					<p id="tagline" class=" hidden-xs">Learning happens everywhere</p>
+					<p id="tagline" class=" hidden-xs">Learning Happen Everywhere</p>
 				</div>
 			</div>
 		</section>
@@ -43,19 +43,32 @@
 			        </div>
 			        <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
 			          	<ul class="nav navbar-nav">
-			            	<li id="home-nav"><a href="<?php echo base_url(); ?>"><span class="fa fa-home"></span> Home</a></li>
-			            	<li id="course-nav"><a href="#">Courses</a></li>
-			            	<li id="community-nav"><a href="#">Community</a></li>
-			            	<li id="job-nav"><a href="#">Jobs</a></li>
-			            	<li id="more-nav" class="dropdown">
-				              	<a href="#" class="dropdown-toggle" data-toggle="dropdown">More ... <span class="caret"></span></a>
-				              	<ul class="dropdown-menu" role="menu">
-				                	<li><a href="#">About Us</a></li>
-				                	<li><a href="#">Contact Us</a></li>
-				                	<li><a href="#">Help</a></li>
-				              	</ul>
+			            	<li id="home-nav">
+			            		<a href="<?php echo base_url('home'); ?>">
+			            			<span class="fa fa-home"></span> Home
+			            		</a>
+			            	</li>
+			            	<li id="course-nav">
+			            		<a href="#">Courses</a>
+			            	</li>
+			            	<li id="branches-nav">
+			            		<a href="#">Branches</a>
+			            	</li>
+			            	<li id="timetable-nav">
+			            		<a href="#">Time Table</a>
+			            	</li>
+			            	<li id="more-nav">
+				              	<a href="#">About Us</a>
+			            	</li>
+			            	<li id="more-nav">
+				              	<a href="#">Contact Us</a>
+			            	</li>	
+			            	<li id="more-nav">
+				              	<a href="#">News</a>
 			            	</li>			          	
-  							<li><a href="#">Student Login</a></li>
+  							<li>
+  								<a href="#">Student Login</a>
+  							</li>
 						</ul>
 			        </div>
 	      		</div>
