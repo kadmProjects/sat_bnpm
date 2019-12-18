@@ -134,18 +134,24 @@
 }
 
 #section-programs {
-	min-height: 300px
+	margin-top: 25px;
+	min-height: 300px;
+	border: solid 2px #007373;
 }
 
 #section-news {
+	margin-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
 	min-height: 300px;
+	border: solid 2px #007373;
 }
 
 .carousel-caption{
 	color: #007373;
 }
 
-#news-header {
+#news-header, #branches-header, #programs-header, #teams-header {
 	color: #007373;
 	font-weight: bold;
 }
@@ -165,4 +171,13 @@
 	margin-top: 15px;
 	margin-bottom: 15px;
 	background-color: #007373;
+}
+
+#section-teams {
+	margin-bottom: 25px;
+}
+
+.branch-item, .teams-item {
+	height: 250px;
+	border: solid 2px #007373;
 }
