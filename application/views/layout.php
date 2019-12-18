@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" href="<?php echo base_url(); ?>assets/images/icon.png">
+  <link rel="icon" href="<?php echo base_url(); ?>assets/images/logo.png">
   <title>SAT</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -57,16 +57,16 @@
 			            	<li id="timetable-nav">
 			            		<a href="#">Time Table</a>
 			            	</li>
-			            	<li id="more-nav">
+			            	<li id="aboutus-nav">
 				              	<a href="#">About Us</a>
 			            	</li>
-			            	<li id="more-nav">
+			            	<li id="contactus-nav">
 				              	<a href="#">Contact Us</a>
 			            	</li>	
-			            	<li id="more-nav">
+			            	<li id="news-nav">
 				              	<a href="#">News</a>
 			            	</li>			          	
-  							<li>
+  							<li id="stulogin-nav">
   								<a href="#">Student Login</a>
   							</li>
 						</ul>
@@ -136,8 +136,7 @@
   		</footer>
 	  	<footer class="main-footer" style="border-top:none;background-color: black;">
 	    	<div class="container-fluid text-center">
-	      		<p>Coding.lk is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.<br/>Copyright 2017 by Modern Tech Solutions (pvt) Ltd. All Rights Reserved.</p>
-	      	<img style="width: 100px;" src="<?php echo base_url(); ?>assets/images/logo_w.png">
+	      		<img style="width: 100px;" src="<?php echo base_url(); ?>assets/images/logo_w.png">
 	    	</div>
 	  	</footer>
 	</div>
@@ -149,11 +148,11 @@
 	<script src="<?php echo base_url(); ?>assets/dist/js/demo.js"></script>
 	<script type="text/javascript">
 		var navbar = document.getElementById('nav-bar');
-		document.body.onscroll=function(x){
-			if(this.scrollY >= 75){
+		document.body.onscroll = function (x) {
+			if (this.scrollY >= 75) {
 				navbar.classList.add('navbar-fixed-top');
 				navbar.classList.remove('navbar-static-top');
-			}else{
+			} else {
 				navbar.classList.remove('navbar-fixed-top');
 				navbar.classList.add('navbar-static-top');
 			}
