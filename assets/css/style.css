@@ -134,6 +134,7 @@
 }
 
 #section-programs {
+	padding: 0px 10px;
 	margin-top: 25px;
 	min-height: 300px;
 	border: solid 2px #007373;
@@ -147,14 +148,19 @@
 	border: solid 2px #007373;
 }
 
-.carousel-caption{
-	color: #007373;
+#section-teams {
+	margin-bottom: 25px;
 }
 
 #news-header, #branches-header, #programs-header, #teams-header {
 	color: #007373;
 	font-weight: bold;
 }
+
+.carousel-caption {
+	color: #007373;
+}
+
 .news-item {
 	margin-top: 15px;
 }
@@ -173,11 +179,31 @@
 	background-color: #007373;
 }
 
-#section-teams {
-	margin-bottom: 25px;
-}
-
 .branch-item, .teams-item {
 	height: 250px;
 	border: solid 2px #007373;
+	padding: 10px 5px;
+	color: #007373;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.branch-item:hover {
+	background-color: #007373;
+	color: white;
+	text-shadow: 0 1px 2px rgba(255,255,255,.6);
+}
+
+.more-programs {
+	margin-left: 65%;
+}
+
+.more-branches {
+	position: absolute;
+	z-index: 2;
+	left: 35%;
+	right: 15%;
+}
+
+.more-branches {
+	bottom: 10%;
 }
